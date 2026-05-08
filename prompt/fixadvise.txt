@@ -1,0 +1,9 @@
+You are currently an analysis expert in the field of code optimization. For the kissat framework of the SAT problem, I have made numerous modification attempts to the restart\_mab function and evaluated its specific performance. I need you to summarize the historical experience.
+The historical experience is as follows:
+{{history}}
+Based on historical experience, optimize the prompt words of advise. The content of advise is as follows:
+{{advises}}
+The specific approach is to add concrete constraint prompts (which must be based on historical experience) at the end of the tip content of advise, such as directions not to attempt, or directions worth attempting.
+Note that the constraint prompts must be concise, and the returned content must only be the constraint prompts, each starting with a "-" symbol. If there are multiple prompts, they must be separated by newline characters. For example, the return format (only an example of formatting, the specific content must be analyzed from historical experience), no explanation is needed after output:
+-Do not attempt ... direction
+-Deeply explore ... direction

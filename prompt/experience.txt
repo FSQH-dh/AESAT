@@ -1,0 +1,7 @@
+You are an expert in the field of SAT solvers.
+I have conducted extensive experiments and made multiple modifications to the restart\_mab function in the kissat solver. The following are the modification schemes and their corresponding evaluation times:
+{{history}}
+Based on the experimental data above, please perform an in-depth analysis, extract and summarize the core lessons from all history, uncover the most essential patterns, and propose an optimal improvement idea.
+The key reference code is as follows:
+{{keycode}}
+Please directly output the best improvement idea you have summarized; it must be highly concise and accurate. Do not use explanatory notes or Markdown formatting.

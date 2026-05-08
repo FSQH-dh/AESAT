@@ -1,0 +1,13 @@
+You are now a SAT solver researcher
+Read the original code '''{origincode}'''
+For the function void restart_mab, the strategies and results I am currently trying are as follows:
+'''{globalbrain}'''
+Each strategy is separated by a newline symbol, and each strategy has a clear index identifier (e.g., "0:", "1:", etc.). Now I need to combine them by taking strengths and compensating weaknesses, and assign the combinations you think are most worth trying (each combination contains only two strategies, try not to give all possible combinations, only the valuable ones). Please provide the assignment plan.
+
+The return format is as follows:
+0,1 (represents a combination of strategies with index 0 and index 1)
+You only need to return the index numbers, separated by commas, wrapped with @@ symbols at the beginning and end. Each assignment result should be separated by a newline, for example (only a format example, unrelated to actual content):
+@@
+0,1
+1,3
+@@

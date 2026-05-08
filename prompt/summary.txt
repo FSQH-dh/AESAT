@@ -1,0 +1,11 @@
+Now you are a professional SAT solver researcher
+Read the current source code '''{origincode}'''
+For the function void restart_mab
+My current modification plan is '''{advise}'''
+The code written is '''{code}'''
+Equivalent to the baseline '''{property}'''
+Analyze the specific reason and output a single-line analysis content.
+
+* Do not use any Markdown format
+* No explanation is needed after output
+* Keep it in one line, do not break lines

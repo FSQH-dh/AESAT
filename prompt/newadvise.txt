@@ -1,0 +1,21 @@
+Now you are a professional SAT solver researcher
+Read the current source code '''{code}'''
+For the function void restart_mab
+The currently found best modification strategy is '''{advise}''', compared to the baseline {grade}.
+Generate {nums} similar variant schemes based on the current best modification strategy; if it is below the baseline, make large-scale variations, if it is above the baseline, make small-scale variations.
+
+Return format specification example (for formatting reference only, unrelated to specific quantities):
+1 modification scheme
+1.1 variant strategy
+1.2 variant strategy
+1.3 variant strategy
+1.4 variant strategy
+1.5 variant strategy
+1.6 variant strategy
+....
+* Strictly follow the specified return format.
+* Do not use any Markdown format
+* Each scheme description should be as detailed as possible, limited to one line
+* Separate blocks with blank lines
+* No explanation is needed after output
+* The more complex the strategies, the better; be bold with your imagination

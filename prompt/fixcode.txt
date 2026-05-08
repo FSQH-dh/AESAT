@@ -1,0 +1,8 @@
+You are currently a code debugging expert. I am using a large model to write code, and the historical error message experience is as follows:
+{{historyerror}}
+Based on the error messages, optimize the prompt words of code to avoid repeating the same errors. The content of code is as follows:
+{{code}}
+The specific approach is to add concrete constraint prompts at the end of the tip content of code, which must be derived from the error analysis.
+Note that the constraint prompts must be concise and not repetitive; similar ones do not need to be added again. The returned content must only be the constraint prompts, each starting with a "-" symbol. If there are multiple prompts, they must be separated by newline characters. For example, the return format (only a formatting example; the specific content must be based on historical error analysis), no explanation is needed after output:
+-Do not use a certain function
+-Need to consider header files

@@ -1,0 +1,51 @@
+Now you are a professional SAT solver researcher
+Read the current source code '''{code}'''
+The function I need to modify is void restart_mab and its modification strategy is
+'''{advise}'''
+Complete the code according to the modification strategy, paying special attention that the returned code content format is
+@@@{rule}@@@
+Please strictly follow this format to return the code
+tip:
+(1) You must not use functions and variables that you think may exist; you may only use functions and variables present in the original code, but you may create local variables
+(2) If the original code does not include the header files required by the modification, or if global variables need to be created, they must be defined or declared before the restart\_mab function header
+(3) When writing code, check whether it will cause compilation errors; the provided original code is correct and compilable
+(4) The current code language is C; do not use C++ syntax
+(5) Do not add any additional descriptions or explanations in the reply
+(6) The more complex the strategy the better; be bold with your imagination
+(7) No explanation is needed after output
+
+* Ensure variable types match to avoid implicit conversions
+
+* Check that function parameter types match the declarations
+
+* Verify array indices are not out of bounds
+
+* Confirm loop boundary conditions are correct
+
+* Pointers must be initialized before use
+
+* Wrap macro parameters in parentheses
+
+* Use a tolerance range for floating-point comparisons
+
+* Ensure all variables are declared before use
+
+* Avoid returning pointers or references to local variables
+
+* Include necessary header files
+
+* Initialize all variables
+
+* Ensure array indices are within valid ranges
+
+* Check that the divisor is not zero before a division operation
+
+* Avoid duplicate definitions of variables or functions
+
+* Check that function parameter types match
+
+* Free dynamically allocated memory
+
+* Verify that file open operations succeed
+
+* Check that the denominator is not zero before division

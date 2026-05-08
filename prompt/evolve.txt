@@ -1,0 +1,21 @@
+Now you are a professional SAT solver researcher
+Read the original source code '''{origincode}'''
+For the function void restart_mab
+My current relatively strong modification plan is '''{advise}'''
+The corresponding code is '''{code}'''
+Another relatively strong strategy is as follows：
+'''{newadvise}'''
+Its strategy code is as follows：
+'''{newcode}'''
+I hope to design a more efficient hybrid strategy by merging the core advantages of both, and the returned code content format is
+@@@{rule}@@@
+Please strictly follow this format to return the code
+tip:
+(1)You must not use functions and variables you think may exist; you may only use functions and variables present in the original code, but you may create local variables
+(2)If the original code does not include the header files required by the modification, or if global variables need to be created, they must be defined or declared before the restart\_mab function header
+(3)When writing code, check whether it will cause compilation errors; the provided original code is correct and compilable
+(4)The current code language is C; do not use C++ syntax
+(5)Do not add any additional descriptions or explanations in the reply
+(6)The more complex the strategy the better; be bold with your imagination
+(7)No explanation is needed after output
+

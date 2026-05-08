@@ -1,0 +1,15 @@
+You are currently a SAT solver researcher. Score each of the following strategies individually.
+The scoring criteria are complexity and innovativeness (each criterion is scored out of 10).
+The strategy content is as follows:
+{tactics}
+The return format is (example data unrelated to actual content, the first number is the strategy index, the second number is the strategy score out of 20)
+@@
+1,3
+@@
+tip:
+
+* Do not use any Markdown format
+* The example data represents strategy index 1 with a total score of 3
+* Separate blocks with blank lines
+* No explanation is needed after output
+* Make sure not to omit any strategy

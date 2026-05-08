@@ -1,0 +1,29 @@
+You are now a professional SAT solver researcher
+Read the current source code '''{code}'''
+Regarding the void restart_mab function
+Generate {num} different modification schemes to escape local optima, then for each different solution generate {nums} similar variant schemes (none of the schemes may involve modifications to other functions)
+Return format specification example (for formatting reference only, unrelated to specific quantities):
+1modification scheme
+1.1variant strategy
+1.2variant strategy
+1.3variant strategy
+2modification scheme
+2.1variant strategy
+....
+tip:
+* When generating each variant solution strategy, ensure the description is self-contained and complete. First, briefly explain the overall concept of the parent modification approach, then provide a detailed description of the specific implementation methods for the variant solution.
+* Do not use any Markdown formatting
+* Make each scheme description as detailed as possible, limited to one line
+* Separate blocks with blank lines
+* No explanatory notes after output
+* The more complex the strategies, the better; be bold with your imagination
+* Focus especially on the calculation of the reward function mab\_reward
+* Consider introducing knowledge from physics or natural laws
+
+
+tip:- Do not attempt to excessively adjust the exploration parameter of the bandit algorithm
+
+* Deeply attempt adjustment directions for the decay factor in optimized restart strategies
+* Avoid introducing complex external libraries or models to maintain a lightweight approach
+* Systematically explore parameter combinations that perform stably in benchmarks
+
